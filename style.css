@@ -6977,16 +6977,16 @@ body {
   color: #fff; }
 
 .btn-secondary {
-  padding: 4px 32px;
-  margin-right: 32px;
-  background-color: white; }
+  padding: 0.25rem 2rem;
+  margin-right: 2rem;
+  background-color: #fff; }
 
 .container {
   padding: 0rem 10rem; }
 
 @media screen and (max-width: 750px) {
   .container {
-    padding: 0; } }
+    padding: 0 1.5rem; } }
 
 @media screen and (max-width: 1420px) {
   html,
@@ -7040,7 +7040,7 @@ p {
   .hero .container-info {
     display: flex;
     flex-direction: column;
-    padding: 1rem 1rem 1rem 1rem;
+    padding: 1rem 1rem 1rem 2.3rem;
     color: #fff; }
   .hero h1, .hero .h1 {
     font-weight: 400;
@@ -7166,9 +7166,11 @@ p {
     .nav li a:hover {
       color: #35b44b; }
 
-@media screen and (max-width: 61.75rem) and (min-width: 51.31rem) {
+@media screen and (max-width: 79.43rem) and (min-width: 51.31rem) {
   .nav {
-    padding: 1rem 9rem; } }
+    padding: 1rem 9rem; }
+    .nav .lista {
+      display: none; } }
 
 @media screen and (max-width: 51.31rem) {
   .nav {
@@ -7177,7 +7179,7 @@ p {
       display: none; }
     .nav .imgfluid {
       margin-top: 0.6rem;
-      height: 1rem; } }
+      height: 1.5rem; } }
 
 .personalized {
   background-color: #f5f5f5;

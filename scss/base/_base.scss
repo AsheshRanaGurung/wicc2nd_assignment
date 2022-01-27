@@ -13,16 +13,16 @@ body {
   color: $white;
 }
 .btn-secondary {
-  padding: 4px 32px;
-  margin-right: 32px;
-  background-color: white;
+  padding: 0.25rem 2rem;
+  margin-right: 2rem;
+  background-color: $white;
 }
 .container {
   padding: 0rem 10rem;
 }
 @media screen and (max-width: 750px) {
   .container {
-    padding: 0;
+    padding: 0 1.5rem;
   }
 }
 // a {
