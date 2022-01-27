@@ -1,0 +1,41 @@
+.footer {
+  .container {
+    .row {
+      padding: 5.3rem 0 3rem 0;
+      .footer-li {
+        padding-bottom: 1.5rem;
+        .footericon {
+          padding-left: 0.25rem;
+        }
+        a {
+          text-decoration: none;
+          font-weight: 400;
+          font-size: 1rem;
+          color: $gray-70;
+        }
+      }
+    }
+    .footer-company {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      padding-bottom: 4.5rem;
+      font-weight: 400;
+      font-size: 0.75rem;
+      color: $gray-70;
+    }
+    .footer-logo {
+      padding-bottom: 2rem;
+    }
+  }
+}
+
+@media screen and(max-width:62.25rem) {
+  .footer {
+    .container {
+      .row {
+        padding: 1.3rem 0 3rem 0;
+      }
+    }
+  }
+}

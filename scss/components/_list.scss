@@ -1,0 +1,33 @@
+.list {
+  padding: 4rem;
+  .table {
+    // padding: 4rem 0 0 0;
+    thead {
+      background-color: $header-button;
+      color: $white;
+      font-weight: 500;
+      font-size: 1rem;
+      font-family: sans-serif;
+    }
+    .table-head {
+      border: solid $header-button;
+    }
+    th {
+      text-align: center;
+      font-weight: 500;
+      font-size: 1rem;
+    }
+    td {
+      text-align: center;
+      padding: 1rem 0 1.2rem;
+    }
+    .table-tick {
+      width: 1.25rem;
+    }
+  }
+}
+@media screen and(max-width:62.25rem) {
+  .list {
+    padding: 4rem 0 0;
+  }
+}

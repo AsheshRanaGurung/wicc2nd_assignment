@@ -1,0 +1,45 @@
+.experience {
+  .experience-information {
+    padding: 3rem 13rem 1rem 13rem;
+    display: flex;
+    flex-direction: column;
+    .info1 {
+      padding-bottom: 3rem;
+      // font-family: inter;
+      font-size: 1rem;
+      color: $exp-font;
+      h1 {
+        font-family: DM Sans;
+        font-weight: 700;
+        font-size: 2rem;
+      }
+      ul {
+        list-style: none; /* Remove default bullets */
+      }
+      ul li::before {
+        content: "\2022";
+        color: $header-button;
+        font-weight: bold;
+        font-size: 1.34rem;
+        display: inline-block;
+        width: 1em;
+        margin-left: -1em;
+      }
+    }
+  }
+}
+@media screen and (max-width: 62rem) {
+  .experience {
+    .experience-information {
+      padding: 1rem 1rem;
+      display: flex;
+      flex-direction: column;
+      .info1 {
+        padding-bottom: 2rem;
+        // font-family: inter;
+        font-size: 1rem;
+        color: $exp-font;
+      }
+    }
+  }
+}

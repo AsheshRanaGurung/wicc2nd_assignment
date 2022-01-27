@@ -1,0 +1,36 @@
+.personalized {
+  background-color: $handshake;
+  padding: 5rem 0 4.5rem 0;
+  .img-fluid {
+    width: -webkit-fill-available;
+  }
+  .info {
+    padding-top: 5rem;
+    .info-head {
+      font-weight: 400;
+      font-size: 2rem;
+      color: $gray-60;
+    }
+    .info-heading {
+      font-weight: 700;
+      font-size: 3rem;
+      color: $info-heading;
+    }
+    .info-details {
+      font-weight: 400;
+      font-size: 1.3rem;
+      color: $gray-70;
+    }
+  }
+}
+@media screen and(max-width:62.25rem) {
+  .personalized {
+    padding: 0;
+    .info {
+      padding-top: 0;
+    }
+    col {
+      padding: 0;
+    }
+  }
+}

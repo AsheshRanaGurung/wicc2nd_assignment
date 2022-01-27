@@ -1,0 +1,57 @@
+.cards {
+  background-color: $thopda-bg;
+  .row {
+    padding-bottom: 5.25rem;
+  }
+  .cards-heading {
+    padding: 3.5rem 0 2rem 0;
+    font-size: 2rem;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: $brand-navy;
+  }
+  .cards-heading-1st {
+    font-weight: 500;
+    font-family: sans-serif;
+    font-size: 2rem;
+    color: $brand-navy;
+    text-align: center;
+    padding-bottom: 2.5rem;
+  }
+  .card {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    .card-img-center {
+      text-align: center;
+      .card-image {
+        width: 8rem;
+      }
+    }
+
+    .card-name {
+      font-weight: 500;
+      text-align: center;
+      font-size: 1rem;
+      color: $gray-80;
+      padding: 1rem 0 0.25rem 0;
+    }
+    .card-details {
+      font-weight: 400;
+      font-size: 0.75rem;
+      color: $gray-50;
+    }
+    .card-info {
+      padding-bottom: 0.25rem;
+    }
+  }
+  .col {
+    padding-bottom: 2.5rem;
+  }
+}
+@media screen and(max-width: 62rem) {
+  .cards-heading {
+    text-align: center;
+  }
+}

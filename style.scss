@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&display=swap");
+
+@import "./scss/abstracts/variables";
+@import "./scss/frameworks/bootstrap";
+
+@import "./scss/abstracts/mixins";
+@import "./scss/abstracts/functions";
+
+@import "./scss/base/base";
+@import "./scss/base/typography";
+@import "./scss/base/utilities";
+
+@import "./scss/components/header";
+@import "./scss/components/hero";
+@import "./scss/components/info";
+@import "./scss/components/cards";
+
+@import "./scss/components/list";
+@import "./scss/components/nav";
+@import "./scss/components/personalized";
+@import "./scss/components/support";
+@import "./scss/components/experience";
+@import "./scss/components/contact";
+@import "./scss/components/footer";

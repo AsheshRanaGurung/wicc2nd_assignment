@@ -1,0 +1,65 @@
+.hero {
+  font-family: DM Sans;
+  .wrapper {
+    padding: 1rem 1rem 1rem 0;
+  }
+  .hero-img {
+    background-image: url(assets/images/girl.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  .container-info {
+    display: flex;
+    flex-direction: column;
+    padding: 8rem 0rem 8rem 18rem;
+    color: $white;
+  }
+  h1 {
+    font-weight: 700;
+    font-size: 2.21rem;
+    font-family: DM Sans;
+  }
+  h5 {
+    font-weight: 400;
+    font-size: 1.12rem;
+
+    font-family: DM Sans;
+  }
+}
+@media screen and(max-width: 68rem) and(min-width: 31rem) {
+  .hero {
+    .container-info {
+      display: flex;
+      flex-direction: column;
+      padding: 4rem 2rem 4rem 7rem;
+      color: $white;
+
+      h1 {
+        font-weight: 400;
+        font-size: 1rem;
+      }
+      h5 {
+        font-weight: 400;
+        font-size: 0.85rem;
+      }
+    }
+  }
+}
+@media screen and(max-width:30.5rem) {
+  .hero {
+    .container-info {
+      display: flex;
+      flex-direction: column;
+      padding: 1rem 1rem 1rem 1rem;
+      color: $white;
+    }
+    h1 {
+      font-weight: 400;
+      font-size: 1rem;
+    }
+    h5 {
+      font-weight: 400;
+      font-size: 0.85rem;
+    }
+  }
+}
