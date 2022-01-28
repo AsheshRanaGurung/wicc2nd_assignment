@@ -14,17 +14,25 @@
   </head>
   <body>
     <header class="nav">
-        <a href="index.html">
-            <img src="./assets/images/Vector.png"  class="imgfluid " alt="subisu logo" />
-          </a>
-      <ul class="nav-list lista">
-        <li><a href="index.html">About</a></li>
-        <li><a href="#">Products</a></li>
-        <li><a href="#">Newsroom</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">Career</a></li>
-        <li><a href="#">FAQ's</a></li>
-        <li><a href="#">Contact Us</a></li>
+      <a href="index.html">
+        <img src="./assets/images/Vector.png"  class="imgfluid " alt="subisu logo" />
+      </a>
+      <div id="menu-bar" onclick="onClickMenu()">
+        <div id="menu">
+          <div id="bar1" class="bar"></div>
+          <div id="bar2" class="bar"></div>
+          <div id="bar3" class="bar"></div>
+        </div>
+      </div>
+      <ul class="nav-list lista ">
+        <li><a href="index.html" class="nav-item ">About</a></li>
+        <li><a href="ourProducts.html"  class="nav-item ">Products</a></li>
+        <li><a href="#"  class="nav-item ">Newsroom</a></li>
+        <li><a href="#"  class="nav-item ">Blog</a></li>
+        <li><a href="#" class="nav-item ">Career</a></li>
+        <li><a href="#" class="nav-item ">FAQ's</a></li>
+        <li><a href="#" class="nav-item ">Contact Us</a></li>
+        <span class="nav-indicator"></span>
         <li><a href="#" class="login">Login</a></li>
         <li><button class="btn-primary">Register</button></li>
       </ul>
@@ -161,6 +169,7 @@
           </div>
         </div>
       </footer>
+      <script src="script.js"></script>
  
     </body>
   </html>

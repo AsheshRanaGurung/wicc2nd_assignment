@@ -50,7 +50,7 @@
     .container-info {
       display: flex;
       flex-direction: column;
-      padding: 1rem 1rem 1rem 2.3rem;
+      padding: 2rem 1rem 3rem 2.3rem;
       color: $white;
     }
     h1 {
@@ -58,8 +58,9 @@
       font-size: 1rem;
     }
     h5 {
-      font-weight: 400;
-      font-size: 0.85rem;
+      display: none;
+      // font-weight: 400;
+      // font-size: 0.85rem;
     }
   }
 }
